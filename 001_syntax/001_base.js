@@ -4,20 +4,24 @@
  *
  */
 function helloWorld() {
+  console.log('Hello World');
 }
 
 /**
  *  1.2 const を使って定義した変数を出力するdisplayConstメソッドを実装してください
  *
  */
+const name ="yuko";
 function displayConst() {
+  console.log(name);
 }
-
 /**
  *  1.3 let を使って定義した変数を出力するdisplayLetメソッドを実装してください
  *
  */
+let number = 1;
 function displayLet() {
+  console.log(number);
 }
 
 /**
