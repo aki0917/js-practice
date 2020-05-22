@@ -11,16 +11,17 @@ function helloWorld() {
  *  1.2 const を使って定義した変数を出力するdisplayConstメソッドを実装してください
  *
  */
-const name ="yuko";
 function displayConst() {
+  const name ="yuko";
   console.log(name);
 }
 /**
  *  1.3 let を使って定義した変数を出力するdisplayLetメソッドを実装してください
  *
  */
-let number = 1;
+
 function displayLet() {
+  let number = 1;
   console.log(number);
 }
 
@@ -29,13 +30,18 @@ function displayLet() {
  *
  */
 function displayArgument(arg) {
+  arg = arg + 10;
+  var num = 10;
+  displayArgument(num);
+  console.log(num);
 }
 
 /**
  *  1.5 渡された二つの引数の合計を返却するメソッドを実装してください
  *
  */
-function sumTwoArgs(a, b) {
+function subtractTwoArgs(a, b) {
+  return(a, b);
 }
 
 /**
@@ -43,6 +49,7 @@ function sumTwoArgs(a, b) {
  *
  */
 function subtractTwoArgs(a, b) {
+  
 }
 
 /**
