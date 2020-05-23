@@ -41,7 +41,7 @@ function displayArgument(arg) {
  *
  */
 function subtractTwoArgs(a, b) {
-  return(a, b);
+  return(a + b);
 }
 
 /**
@@ -49,7 +49,7 @@ function subtractTwoArgs(a, b) {
  *
  */
 function subtractTwoArgs(a, b) {
-  
+  return(a - b);
 }
 
 /**
@@ -57,6 +57,7 @@ function subtractTwoArgs(a, b) {
  *
  */
 function quotientTwoArgs(a, b) {
+  return(a / b);
 }
 
 /**
@@ -64,6 +65,7 @@ function quotientTwoArgs(a, b) {
  *
  */
 function productTwoArgs(a, b) {
+  return(a * b);
 }
 
 /**
@@ -71,6 +73,7 @@ function productTwoArgs(a, b) {
  *
  */
 function remainderTwoArgs(a) {
+  return(a % b);
 }
 
 /**
@@ -78,6 +81,7 @@ function remainderTwoArgs(a) {
  *
  */
 function isEven(a) {
+  
 }
 
 /**
@@ -85,4 +89,5 @@ function isEven(a) {
  *
  */
 function concatString(a, b) {
+  console.log("a" + "b");
 }
