@@ -81,7 +81,7 @@ function remainderTwoArgs(a) {
  *
  */
 function isEven(a) {
-  
+  return(a ** 2);
 }
 
 /**
