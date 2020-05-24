@@ -29,13 +29,10 @@ function displayLet() {
  *  1.4 引数に渡した変数を表示するメソッドを実装してください
  *
  */
-function displayArgument(arg) {
-  arg = arg + 10;
-  var num = 10;
-  displayArgument(num);
-  console.log(num);
-}
-
+ver hoge = function displayArgument(arg) {
+  return x * 2;
+};
+console.log(hoge(10));
 /**
  *  1.5 渡された二つの引数の合計を返却するメソッドを実装してください
  *
@@ -81,8 +78,9 @@ function remainderTwoArgs(a) {
  *
  */
 function isEven(a) {
-  return(a ** 2);
+  return(a * 2);
 }
+console.log(hoge(10));
 
 /**
  *  1.10 渡された二つの文字列を連結するメソッドを実装してください
