@@ -5,7 +5,13 @@
  *    と出力するメソッドを実装してください
  *
  */
+const ag = 30;
 function printMessageByAge(age) {
+  if(ag > 20) {
+    console.log("成年です");
+  }else {
+    console.log("未成年です");
+  }
 }
 
 /**
