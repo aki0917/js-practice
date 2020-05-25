@@ -77,13 +77,16 @@ function remainderTwoArgs(a) {
  *
  */
 function isEven(a) {
-  return(a ** 2);
+  console.log(16 % 7);
 }
 
+function isEven(a) {
+  console.log(a % 2);
+}
 /**
  *  1.11 渡された二つの文字列を連結するメソッドを実装してください
  *
  */
 function concatString(a, b) {
-  console.log('今日は' + 'いい天気');
+  console.log(a + b);
 }
