@@ -77,11 +77,7 @@ function remainderTwoArgs(a) {
  *
  */
 function isEven(a) {
-  console.log(16 % 7);
-}
-
-function isEven(a) {
-  console.log(a % 2);
+  console.log(a % 2 === 0 );
 }
 /**
  *  1.11 渡された二つの文字列を連結するメソッドを実装してください
