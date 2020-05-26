@@ -24,7 +24,7 @@ function printMessageByAge(age) {
 function greeding(hour) {
   if (4 <= hour && hour < 12) {
     console.log('Good Morning');
-  } else if(12 <= hour && hour < 17){
+  }else if(12 <= hour && hour < 17){
     console.log('Hello');
   }else{
     console.log('Good Night');
@@ -45,6 +45,19 @@ function greeding(hour) {
  */
 
 function getDay(day) {
-  var weekDay = [ "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday" ];
-  return (day);
+  if (day == 0) {
+    console.log("Sunday");
+  } else if (day == 1) {
+    console.log("Monday");
+  } else if (day == 2) {
+    console.log("Tuesday");
+  } else if (day == 3) {
+    console.log("Wednesday");
+  } else if (day == 4) {
+    console.log("Thursday");
+  } else if (day == 5) {
+    console.log("Friday");
+  } else if (day == 6) {
+    console.log("Saturday");
+  } 
 }
