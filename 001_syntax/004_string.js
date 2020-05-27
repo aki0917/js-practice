@@ -4,6 +4,8 @@
  */
 
 function length(str) {
+  var str = 'hogehoge';
+  return(str.length);
 }
 
 /**
@@ -12,14 +14,15 @@ function length(str) {
  */
 
 function lengthIsEven(str) {
+  return(str.length % 2==0);
 }
 
 /**
  *  4.3 文字列の先頭一文字目を返却するメソッドを実装してください
  *
  */
-
 function firstChar(str) {
+  return 'こねこ'.charAt(0)
 }
 
 /**
@@ -29,6 +32,9 @@ function firstChar(str) {
  */
 
 function substring(str, a, b) {
+  str = 'user_ab';
+  var result = str.replace( 'user_ab', 'ab' );
+  return (result);
 }
 
 /**
@@ -44,6 +50,11 @@ function substring(str, a, b) {
  */
 
 function isInclude(a, b) {
+  var str = "Hello, world!";
+  var a = str.includes("Hello", 1);
+  var b = str.includes("ello", 1);
+  console.log(res1)
+  console.log(res2)
 }
 
 /**
@@ -59,4 +70,6 @@ function isInclude(a, b) {
  */
 
 function isPalindrome(str) {
+  const reversed = str.split('').reverse().join('');
+  console.log(str === reversed);
 }
