@@ -4,6 +4,8 @@
  */
 
 function printArray(array) {
+  var array = ["a", "b", "c"];
+  console.log(array);
 }
 
 /**
@@ -22,6 +24,8 @@ function printArray(array) {
  *
  */
 function getDays() {
+  var Day = [ "Monday","Tuesday","Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
+  return(Day);
 }
 
 /**
@@ -35,8 +39,8 @@ function getDays() {
  */
 
 function findNum(array, num) {
+  return(array.includes(num));
 }
-
 /**
  *  5.4 配列に重複した要素があれば、true、そうでなければfalseを返す関数を実装してください
  *
@@ -48,4 +52,5 @@ function findNum(array, num) {
  */
 
 function isDuplicate(array) {
+  return(Set.prototype.has(array))
 }
