@@ -2,11 +2,10 @@
  *  5.1 配列の要素を全て表示するメソッドを実装してください
  *
  */
-
-function printArray(array) {
-  var array = ["a", "b", "c"];
+const array = [1, 2, 3];
+array.forEach (function printArray(array) {
   console.log(array);
-}
+});
 
 /**
  *  5.2 全ての曜日を配列として返却するメソッドを実装してください
@@ -51,6 +50,8 @@ function findNum(array, num) {
  *
  */
 
-function isDuplicate(array) {
-  return(Set.prototype.has(array))
-}
+myarray.forEach (function isDuplicate(array) {
+  var myarray = [1, 2, 3];
+  var res1= myarray.includes(5);
+  console.log(res1);
+});

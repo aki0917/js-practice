@@ -6,8 +6,13 @@
  *  gender: 'male'
  *
  */
-
 function getPersonObject() {
+  var person = {
+    name: "Bob",
+    age: 23,
+    gender: 'male',
+  }
+  return person;
 }
 
 /**
@@ -25,6 +30,11 @@ function getPersonObject() {
  */
 
 function mutateObject(person) {
+  var person = { name: 'Bob', age: 32,  gender: 'male'};
+  person.name ='Mary'
+  person.age = 37
+  person.gender = 'female'
+  console.log(person)
 }
 
 /**
@@ -49,18 +59,5 @@ function mutateObject(person) {
  */
 
 function assignNumber(persons) {
-}
-
-/**
- *  6.4 配列に重複した要素があれば、true、そうでなければfalseを返す関数を実装してください
- *      但し、オブジェクトを使って実装すること
- *
- *  example:
- *    [1, 2, 3], 1 => false
- *    [1, 2, 2, 3], 5 => true
- *    [] => false
- *
- */
-
-function isDuplicate(array) {
+   
 }
