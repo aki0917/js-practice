@@ -23,6 +23,17 @@
  */
 
 function fizzBuzz () {
+  for (var i = 1; i <= 100; i++) {
+    if (i % 3 == 0 && i % 5 == 0) {
+      console.log("FizzBuzz")
+    } else if (i % 3 == 0) {
+      console.log("Fizz")
+    } else if (i % 5 == 0) {
+      console.log("Buzz")
+    } else {
+      console.log(i)
+    }
+  }
 }
 
 /**
@@ -36,9 +47,13 @@ function fizzBuzz () {
  *    [1] => output: 1
  *
  */
-
+var ary = [1,2,3,4,5];
 function sum(array) {
-  return
+  var num = 0;
+  for (var i = 0, l = array.length; i < l; i++) {
+    num += array[i];
+  }
+  return num;
 }
 
 /**
@@ -54,6 +69,9 @@ function sum(array) {
  */
 
 function minMax(array) {
+  let num = [1,2,3,4,5,6,7,8];
+  console.log(num.reduce((a,b)=>a>b?a:b));
+  console.log(num.reduce((a,b)=>a<b?a:b));
 }
 
 /**
@@ -68,8 +86,9 @@ function minMax(array) {
  *
  */
 function reverse(str) {
-  return
+  return str.split('').reverse().join('');
 }
+reverseString('string'); 
 
 /**
  *  2.1.5 文字列のローテート
@@ -83,7 +102,7 @@ function reverse(str) {
  *
  */
 function rotate(str, num) {
-  return
+  return　(str.slice(num));
 }
 
 /**
@@ -98,7 +117,7 @@ function rotate(str, num) {
  *
  */
 function countStr(s1, s2) {
-  return
+  return　(str.match(new RegExp(val, "g")) || []).length;
 }
 
 /**

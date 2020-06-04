@@ -59,5 +59,6 @@ function mutateObject(person) {
  */
 
 function assignNumber(persons) {
+   var person = [ 'Bob','Mary','Ann','Mike']
    
 }
