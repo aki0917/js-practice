@@ -135,8 +135,20 @@ function countStr(s1, s2) {
  *
  */
 function isPrime(num) {
-  return
+  if(num === 2) {
+    return true;
+  } else {
+    for(i = 2; i < num; i++) {
+      if(num % i === 0) {
+        return false;
+      } 
+      if(i + 1 === num) {
+        return true;
+      }
+    }
+  }
 }
+
 
 /**
  *  2.1.8 配列の4と次の数字を抜いた合計
